@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="XAML_Test_2019.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XAML_Test_2019"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnSampleMessage" Content="Show Message" HorizontalAlignment="Left" Margin="969,72,0,0" VerticalAlignment="Top" Click="BtnSampleMessage_Click"/>
+        <Slider x:Name="slrSizePicker" Header="Size Picker" HorizontalAlignment="Left" Margin="113,268,0,0" VerticalAlignment="Top" Width="450"/>
+        <ToggleSwitch x:Name="togNightMode" Header="Night Mode" HorizontalAlignment="Left" Margin="113,167,0,0" VerticalAlignment="Top" OffContent="Day" OnContent="Night"/>
+        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Margin="113,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="810" PlaceholderText="Enter your message here..."/>
+
+    </Grid>
+</Page>
